@@ -14,7 +14,7 @@ target = (1,100,28,90,-60,20 ) #原始信标灯
 target_miss =(35,100,-16,15,-10,44)
 #target_miss =(1,100,-22,61,-48,51)
 
-sensor.set_colorbar(True)
+sensor.set_colorbar(True)         #打开彩色模式
 sensor.reset()
 sensor.set_pixformat(sensor.RGB565)
 sensor.set_framesize(sensor.CIF)
